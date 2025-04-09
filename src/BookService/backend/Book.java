@@ -54,7 +54,7 @@ public class Book {
         }
 
         public BookBuilder setAuthors(Author[] authors) {
-            this.authors = authors;
+            this.authors=authors;
             return this;
         }
 

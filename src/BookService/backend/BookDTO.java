@@ -16,4 +16,28 @@ public class BookDTO {
         this.genre = genre;
         this.authors = authors;
     }
+
+    public int getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public int getPrice() {
+        return price;
+    }
+
+    public Genre getGenre() {
+        return genre;
+    }
+
+    public Author[] getAuthors() {
+        return authors;
+    }
 }
